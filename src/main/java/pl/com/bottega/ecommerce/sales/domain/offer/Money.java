@@ -25,4 +25,12 @@ public class Money {
     public int hashCode() {
         return Objects.hash(currency, amount);
     }
+
+    public String getCurrency() {
+        return currency;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
 }
